@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre Artistico: </label>
+            <input type="text" id="nombre" name="nombre" /><br /><br />
+
+            <label for="nombre">Nombre Real: </label>
+            <input type="text" id="nombre" name="nombre" /><br /><br />
+
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad" /><br /><br />
+
+            <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" /><br /><br />
+
+            <label for="comentario">Canciones Top 5 De Spotify: </label>
+            <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea><br /><br />
+
+
+            <label for="Continente">Continente De Nacionalidad: </label>
+            <select id="Continente" name="Continente">
+                <option value="Oceania">Oceania</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europa">Europa</option>
+                <option value="America Del Sur">America Del Sur</option>
+                <option value="America Del Norte">America Del Norte</option>
+                <option value="America">America</option></select
+            ><br /><br />
+            
+            <label for="Genero_Musical">Genero Musical: </label>
+            <select id="Genero_Musical" name="Genero_Musical">
+            <option value="Rock">Rock</option>
+            <option value="Pop">Pop</option>
+            <option value="Reggaeton">Reggaeton</option>
+            <option value="Rap">Rap</option><select>
+            <br /><br />
+
+            <input type="checkbox" id="Masculino" name="acepto" />
+            <label for="acepto">Masculino</label>
+            <input type="checkbox" id="Femenino" name="acepto" />
+            <label for="acepto">Femenino</label>
+            <input type="checkbox" id="Otros" name="acepto" />
+            <label for="acepto">Otros</label>
+
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>
